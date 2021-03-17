@@ -11,8 +11,8 @@ body{
 .weatherImage{
   max-width: 100%;
 
-  margin: -3em auto;
-  margin-left: 0.8em;
+  margin: auto;
+  margin-left: auto;
 
 }
 
@@ -57,11 +57,13 @@ body{
   height: 200px;
   border-radius: 3px;
   box-shadow: 0px 1px 7px rgba(0,0,0, 0.25);
+
 }
 
 .widgetIcon{
   position: relative;
-  margin: 0 auto;
+  margin: auto;
+
 }
 
 .widgetSpin{
@@ -69,5 +71,41 @@ body{
   top: 16px;
   right: 90px;
   text-align: center;
-  width: 90px;
+  width: 500px;
+
+}
+
+.widgetImage{
+  max-width: 50%;
+  margin: -3em auto;
+  margin-left: -3em;
+  
+
+}
+
+.direction{
+  margin-left: 37em;
+  margin-top: -10em;
+}
+
+.directionImage{
+  max-width: 50%;
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.directionName{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.speed{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tempWidget{
+  margin-left: 0.7em;
+  margin-top: 2em;
+  font-size: 90px;
 }
